@@ -1,0 +1,2 @@
+# algorithym
+test öğrenme
