@@ -1,2 +1,2 @@
 # algorithym
-test öğrenme
+Master branchte 1.sınıfta flowchart üzerinden yaptığım basit flowgorithmler var. 
