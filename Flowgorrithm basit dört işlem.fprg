@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="cakir"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-15 09:00:03 &#214;S"/>
+        <attribute name="created" value="Y2FraXI7RknCnkVROzIwMjMtMTAtMTU7MDc6Mzc6NDIgw5ZTOzIzOTQ="/>
+        <attribute name="edited" value="Y2FraXI7RknCnkVROzIwMjMtMTAtMTU7MDk6MDA6MDMgw5ZTOzEwOzI1Mzk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, d, h" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="20"/>
+            <assign variable="b" expression="10"/>
+            <assign variable="c" expression="15"/>
+            <assign variable="d" expression="5"/>
+            <assign variable="h" expression="a+(b*c)/d"/>
+            <output expression="h" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
