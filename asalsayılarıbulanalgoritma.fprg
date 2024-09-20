@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="cakir"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-24 01:10:32 &#214;S"/>
+        <attribute name="created" value="Y2FraXI7RknCnkVROzIwMjMtMTEtMjQ7MTI6NDU6Mzkgw5ZTOzIzOTY="/>
+        <attribute name="edited" value="Y2FraXI7RknCnkVROzIwMjMtMTEtMjQ7MDE6MTA6MzIgw5ZTOzE7MjQ4Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="say&#305;, saya&#231;, b&#246;len, toplam" type="Integer" array="False" size=""/>
+            <output expression="&quot;2&quot;" newline="True"/>
+            <assign variable="say&#305;" expression="3"/>
+            <for variable="saya&#231;" start="3" end="97" direction="inc" step="1">
+                <assign variable="toplam" expression="0"/>
+                <assign variable="b&#246;len" expression="2"/>
+                <while expression="b&#246;len&lt;say&#305;">
+                    <if expression="say&#305;%b&#246;len=0">
+                        <then>
+                            <assign variable="toplam" expression="toplam+1"/>
+                        </then>
+                        <else/>
+                    </if>
+                    <assign variable="b&#246;len" expression="b&#246;len+1"/>
+                </while>
+                <if expression="toplam=0">
+                    <then>
+                        <output expression="say&#305;" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+                <assign variable="say&#305;" expression="say&#305;+1"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
