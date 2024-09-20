@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="cakir"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-29 10:37:35 &#214;S"/>
+        <attribute name="created" value="Y2FraXI7RknCnkVROzIwMjMtMTAtMjk7MTA6Mjk6MzIgw5ZTOzIzOTM="/>
+        <attribute name="edited" value="Y2FraXI7RknCnkVROzIwMjMtMTAtMjk7MTA6Mzc6MzUgw5ZTOzE7MjUwMw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="alan, &#231;evre, kenar, de&#287;er" type="Integer" array="False" size=""/>
+            <output expression="&quot;1 veya 2 de&#287;erinden birini se&#231;iniz&quot;" newline="True"/>
+            <input variable="de&#287;er"/>
+            <output expression="&quot;kenar de&#287;erini giriniz&quot;" newline="True"/>
+            <input variable="kenar"/>
+            <if expression="de&#287;er=1">
+                <then>
+                    <assign variable="&#231;evre" expression="4*kenar"/>
+                    <output expression="&quot;&#231;evre:&quot;&amp;&#231;evre" newline="True"/>
+                </then>
+                <else>
+                    <assign variable="alan" expression="kenar^4"/>
+                    <output expression="&quot;alan:&quot;&amp;alan" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
