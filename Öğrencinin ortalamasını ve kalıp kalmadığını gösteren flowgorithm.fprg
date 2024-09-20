@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="cakir"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-29 10:22:19 &#214;S"/>
+        <attribute name="created" value="Y2FraXI7RknCnkVROzIwMjMtMTAtMjk7MDk6NDA6NTMgw5ZTOzIzOTc="/>
+        <attribute name="edited" value="Y2FraXI7RknCnkVROzIwMjMtMTAtMjk7MTA6MjI6MTkgw5ZTOzE7MjQ5OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="v, f, g, a, b" type="Real" array="False" size=""/>
+            <output expression="&quot;vize sonucunuzu giriniz&quot;" newline="True"/>
+            <input variable="v"/>
+            <assign variable="a" expression="v*40/100"/>
+            <output expression="&quot;final sonucunuzu giriniz&quot;" newline="True"/>
+            <input variable="f"/>
+            <assign variable="b" expression="f*60/100"/>
+            <output expression="&quot;ortalaman&#305;z:&quot;  &amp;a+b" newline="True"/>
+            <if expression="a+b&lt;50">
+                <then>
+                    <output expression="&quot;dersten kald&#305;n&#305;z&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;dersten ge&#231;tiniz&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
