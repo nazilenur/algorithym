@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="cakir"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-24 12:25:35 &#214;S"/>
+        <attribute name="created" value="Y2FraXI7RknCnkVROzIwMjMtMTEtMjQ7MTI6MTM6NTQgw5ZTOzIzODg="/>
+        <attribute name="edited" value="Y2FraXI7RknCnkVROzIwMjMtMTEtMjQ7MTI6MjU6MzUgw5ZTOzE7MjQ5OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="say&#305;, saya&#231;, b3, b2, b1, say&#305;2" type="Integer" array="False" size=""/>
+            <assign variable="say&#305;" expression="100"/>
+            <assign variable="saya&#231;" expression="100"/>
+            <assign variable="say&#305;2" expression="100"/>
+            <while expression="saya&#231;&lt;900">
+                <assign variable="say&#305;" expression="say&#305;2"/>
+                <assign variable="b1" expression="say&#305;%10"/>
+                <assign variable="say&#305;" expression="say&#305;/10"/>
+                <assign variable="b2" expression="say&#305;%10"/>
+                <assign variable="say&#305;" expression="say&#305;/10"/>
+                <assign variable="b3" expression="say&#305;"/>
+                <if expression="say&#305;2=(b1*b1*b1)+(b2*b2*b2)+(b3*b3*b3)">
+                    <then>
+                        <output expression="say&#305;2" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+                <assign variable="saya&#231;" expression="saya&#231;+1"/>
+                <assign variable="say&#305;2" expression="say&#305;2+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
