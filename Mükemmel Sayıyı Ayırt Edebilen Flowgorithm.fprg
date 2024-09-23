@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="cakir"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-24 12:28:53 &#214;&#214;"/>
+        <attribute name="created" value="Y2FraXI7RknCnkVROzIwMjMtMTEtMjQ7MTI6MjQ6Mjkgw5bDljsyNTIz"/>
+        <attribute name="edited" value="Y2FraXI7RknCnkVROzIwMjMtMTEtMjQ7MTI6Mjg6NTMgw5bDljsxOzI2MzI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="saya&#231;, say&#305;, TB&#246;len" type="Integer" array="False" size=""/>
+            <assign variable="saya&#231;" expression="1"/>
+            <assign variable="TB&#246;len" expression="0"/>
+            <input variable="say&#305;"/>
+            <while expression="saya&#231;&lt;say&#305;">
+                <if expression="say&#305;%saya&#231;=0">
+                    <then>
+                        <assign variable="TB&#246;len" expression="TB&#246;len+saya&#231;"/>
+                    </then>
+                    <else/>
+                </if>
+                <assign variable="saya&#231;" expression="saya&#231;+1"/>
+            </while>
+            <if expression="TB&#246;len=say&#305;">
+                <then>
+                    <output expression="&quot;Girdi&#287;iniz say&#305; m&#252;kemmel say&#305;d&#305;r.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Girdi&#287;iniz say&#305; m&#252;kemmel say&#305; de&#287;ildir.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
