@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="cakir"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-24 12:11:00 &#214;S"/>
+        <attribute name="created" value="Y2FraXI7RknCnkVROzIwMjMtMTAtMzA7MTA6NTU6MDEgw5ZTOzIzODA="/>
+        <attribute name="edited" value="Y2FraXI7RknCnkVROzIwMjMtMTEtMjQ7MTI6MTE6MDAgw5ZTOzQ7MjQ4OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ba&#351;lang&#305;&#231;, biti&#351;, toplam" type="Real" array="False" size=""/>
+            <output expression="&quot;ba&#351;lang&#305;&#231; de&#287;erini giriniz&quot;" newline="True"/>
+            <input variable="ba&#351;lang&#305;&#231;"/>
+            <output expression="&quot;Biti&#351; de&#287;erini giriniz.&quot;" newline="True"/>
+            <input variable="biti&#351;"/>
+            <assign variable="toplam" expression="0"/>
+            <do expression="ba&#351;lang&#305;&#231;&lt;biti&#351;">
+                <assign variable="toplam" expression="toplam+ba&#351;lang&#305;&#231;"/>
+                <assign variable="ba&#351;lang&#305;&#231;" expression="ba&#351;lang&#305;&#231;+1"/>
+            </do>
+            <output expression="toplam" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
