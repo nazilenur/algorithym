@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="cakir"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-23 08:12:16 &#214;S"/>
+        <attribute name="created" value="Y2FraXI7RknCnkVROzIwMjMtMTEtMjM7MDc6NDg6MDUgw5ZTOzIzOTU="/>
+        <attribute name="edited" value="Y2FraXI7RknCnkVROzIwMjMtMTEtMjM7MDg6MTI6MTYgw5ZTOzI7MjQ5OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="SAYI, KALAN" type="Integer" array="False" size=""/>
+            <input variable="SAYI"/>
+            <if expression="99&lt;SAYI&amp;&amp;SAYI&lt;1000">
+                <then>
+                    <while expression="SAYI&gt;0">
+                        <assign variable="KALAN" expression="SAYI%10"/>
+                        <output expression="KALAN" newline="True"/>
+                        <assign variable="SAYI" expression="SAYI/10"/>
+                    </while>
+                </then>
+                <else>
+                    <output expression="&quot;3 BASAMAKLI B&#304;R SAYI G&#304;R&#304;N&#304;Z&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
