@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="cakir"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-31 12:01:38 &#214;&#214;"/>
+        <attribute name="created" value="Y2FraXI7RknCnkVROzIwMjMtMTAtMzA7MTE6NTI6NTkgw5ZTOzIzOTE="/>
+        <attribute name="edited" value="Y2FraXI7RknCnkVROzIwMjMtMTAtMzE7MTI6MDE6Mzggw5bDljsxOzI2MjM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="say&#305;, saya&#231;, b&#246;len" type="Integer" array="False" size=""/>
+            <output expression="&quot;say&#305; giriniz.&quot;" newline="True"/>
+            <input variable="say&#305;"/>
+            <assign variable="saya&#231;" expression="0"/>
+            <assign variable="b&#246;len" expression="0"/>
+            <for variable="b&#246;len" start="0" end="say&#305;" direction="inc" step="1">
+                <assign variable="b&#246;len" expression="b&#246;len+1"/>
+                <if expression="say&#305;%b&#246;len=0">
+                    <then>
+                        <output expression="&quot;TAM B&#214;LENLER:&quot;&amp;b&#246;len" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
