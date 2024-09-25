@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="cakir"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-30 10:07:30 &#214;S"/>
+        <attribute name="created" value="Y2FraXI7RknCnkVROzIwMjMtMTAtMzA7MDk6NTg6NDUgw5ZTOzIzOTk="/>
+        <attribute name="edited" value="Y2FraXI7RknCnkVROzIwMjMtMTAtMzA7MTA6MDc6MzAgw5ZTOzE7MjQ4Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="say&#305;, &#231;arp&#305;m" type="Integer" array="False" size=""/>
+            <assign variable="say&#305;" expression="0"/>
+            <assign variable="&#231;arp&#305;m" expression="1"/>
+            <do expression="say&#305;&lt;12">
+                <assign variable="say&#305;" expression="say&#305;+1"/>
+                <assign variable="&#231;arp&#305;m" expression="say&#305;*&#231;arp&#305;m"/>
+            </do>
+            <output expression="&#231;arp&#305;m" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
